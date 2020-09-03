@@ -1,0 +1,32 @@
+//Question 1
+let data="My name is Haritha"
+let index = data.indexOf("h");
+console.log(index);
+
+//Question 2
+function a(mins) {
+    let secs=mins*60;
+    console.log(secs);
+}
+console.log(a(50));
+
+//Question 3
+let array = ["horse" , "camel" , "tiger" , "lion"];
+let element=array.indexOf("tiger");
+console.log(element);
+
+//Question 4
+let strings = ["paper" , "eraser" , "pen" , "book", "sharpner"];
+strings.forEach(function (b){
+    if(b.includes("a", 0))
+    {
+        console.log(b);
+    }
+})
+
+//Question 5
+let number = [1 , 25 , 85 , 41];
+for(let i=number.length -1;i>=0;i--)
+{
+  console.log(number[i]);
+}
